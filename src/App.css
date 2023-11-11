@@ -1,0 +1,86 @@
+.white{
+  color: white;
+ }
+ 
+ .bg-color {
+   background-color: #F5EEC8;
+ }
+ 
+ /* Dark mode styles */
+ .dark-mode .bg-color{
+   background-color: #333; /* Use a dark color like dark gray or deep blue */
+ }
+ 
+ .custom-box {
+   background-color: #A7D397;
+ }
+ 
+ .custom-navbar .nav-link{
+   color: white !important
+ }
+ 
+ .custom-navbar{
+   background-color: #C08261;
+ }
+ 
+ .custom-box2 {
+   background-color: #cfd4c7;
+ }
+ 
+ .custom-box3 {
+   background-color: #cfc36d;
+ }
+ 
+ /* Dark mode styles */
+ .dark-mode .custom-box {
+   background-color: #476a43;
+   color: white;
+ }
+ 
+ .dark-mode .custom-navbar .nav-link {
+   color: #f9f9f9 !important; 
+ }
+ 
+ .dark-mode .custom-navbar {
+   background-color: #1a1625; 
+ }
+ 
+ .dark-mode .custom-box2 {
+   background-color: #645f70;
+   color: white;
+ }
+ 
+ .dark-mode .custom-box3 {
+   background-color: #082c4a;
+   color: white;
+ }
+ 
+ /* Dark mode toggle button */
+ .dark-mode-button {
+   position: fixed;
+   bottom: 20px; /* Adjust the distance from the bottom as needed */
+   right: 20px; /* Adjust the distance from the right as needed */
+   background-color: #333; /* Background color of the button */
+   color: #fff; /* Text color */
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+   z-index: 999; /* Ensures the button is above other page content */
+ }
+ 
+ .dark-mode-button:hover {
+   background-color: #555; 
+ }
+ 
+ /* Icon for the dark mode button (you can replace this with your preferred icon) */
+ .dark-mode-icon {
+   font-size: 24px;
+ }
+ 
+ .dark-mode-active {
+   background-color: #fff;
+   color: #333;
+ }
+ 
