@@ -38,8 +38,8 @@ function App() {
           <Alert alert={alert} />
           <div className="container mt-4">
             <Routes>
-            <Route path="/about" element={<About />} />
-              <Route path="/" element={<TextForm heading="Enter the text to analyze below:" showAlert={showAlert} />} />
+              <Route exact path="/about" element={<About />} />
+              <Route path="Text-Utils/" element={<TextForm heading="Enter the text to analyze below:" showAlert={showAlert} />} />
             </Routes>
             <button
               className={`dark-mode-button ${isDarkModeActive ? 'dark-mode-active' : ''}`}
