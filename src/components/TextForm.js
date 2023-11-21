@@ -102,7 +102,7 @@ export default function TextForm(props) {
     }
 
     const [text, setText] = useState('')
-    const wordCount = text.trim() === '' ? 0 : text.split(' ').length;
+    const wordCount = text.split(" ").filter((element) => {return element.length!==0}).length;
 
     return (
         <>
