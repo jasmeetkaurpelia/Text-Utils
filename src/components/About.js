@@ -45,7 +45,7 @@ export default function About() {
                             Save your work, copy it to the clipboard, or download it as a text file.
                         </li>
                         <p className="lead text-center">
-                            <button className="btn btn-outline-dark btn-lg mt-4">Use Now</button>
+                             <Link to="/Text-Utils"><button className="btn btn-outline-dark btn-lg mt-4">Use Now</button></Link>
                         </p>
                     </ul>
                 </div>
