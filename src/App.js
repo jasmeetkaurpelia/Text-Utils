@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename="/Text-Utils">
       <div className={`app-container ${isDarkModeActive ? 'dark-mode' : ''}`}>
         <div className='bg-color'>
           <Navbar title="TextUtils" />
